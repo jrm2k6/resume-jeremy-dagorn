@@ -160,6 +160,20 @@
 					} 
 				}
 			},
+			{
+				"item-projects": {
+					"title": "Creation of a NPM module: json-resume-dynamic",
+					"description":"A small weekend project that became a NPM module. It helps you create your resume using JSON and is easily deployable. You can also add extra information that will be loaded as you scroll, making your resume more personal. I created it and I am also in charge of maintaining it. You can read more about it at http://jrm2k6.github.io/dynamic-json-resume/",
+					"technologies": [
+						"NodeJs", "Javascript"
+					],
+					"id": "id-npm",
+					"extra": {
+						"type": "text",
+						"extraContent": "Basically, you are looking at it! More information <a href=\"https://www.npmjs.com/package/json-resume-dynamic\">here</a>"
+					}
+				}
+			},
 			{	
 				"item-projects": {
 					"title": "Android code generator",
