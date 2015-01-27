@@ -37,7 +37,7 @@
 						"city": "Nantes",
 						"country": "France"
 					},
-					"description": "Student in Software Engineering and Networks.",
+					"description": "Student in Software Engineering and Networks",
 					"additional-info": "Graduated with the equivalent of a Master Degree in Computer Science",
 					"extra": {
 						"type": "text",
@@ -55,12 +55,29 @@
 						"city": "Vannes",
 						"country": "France"
 					},
-					"description": "Student in Computer Science.",
+					"description": "Student in Computer Science",
 					"additional-info": "Graduated with a Bachelor Degree in Computer Science with honors"
 				}
 			}
 		],
 		"work": [
+			{
+				"item-work": {
+					"start-date": "Jan. 2015",
+					"end-date": "Present",
+					"position": "Software engineer",
+					"company": {
+						"name": "PocketDerm",
+						"city": "San Diego",
+						"country": "USA"
+					},
+					"achievements": "Working on front-end and mobile applications for PocketDerm's online dermatology solution",
+					"technologies": [
+						"PHP/Laravel",
+						"Javascript"
+					]
+				}
+			},
 			{
 				"item-work": {
 					"start-date": "May. 2012",
@@ -98,7 +115,7 @@
 						"city": "Santa Cruz",
 						"country": "USA"
 					},
-					"achievements": "I was in charge of implementing two prototypes in Android for two different projects. The first project was targeting people suffering from Aphasia. The Android application created was displaying images, with multiple choices for their meaning, or recording sentences repeated by the user. A web interface has also been implemented to provide an easy way for a therapist to follow the evolution of a patient. The second project was an electronic calendar for tables for people with Alzeihmer. This was an easy way to study their habits by recording their interaction with the application (handwriting, and taking pictures). I also took part in the redaction of papers submitted for conferences.",
+					"achievements": "I was in charge of implementing two prototypes in Android for two different projects. The first project was targeting people suffering from Aphasia. The Android application created was displaying images, with multiple choices for their meaning, or recording sentences repeated by the user. A web interface has also been implemented to provide an easy way for a therapist to follow the evolution of a patient. The second project was an electronic calendar for tablets for people with Alzeihmer. This was an easy way to study their habits by recording their interaction with the application (handwriting, and taking pictures). I also took part in the redaction of papers submitted for conferences.",
 					"technologies": [
 						"Android/Java",
 						"PHP"
@@ -177,7 +194,7 @@
 			{	
 				"item-projects": {
 					"title": "Android code generator",
-					"description":"This is a project still in really early development. I plan to create a small DSL to make it easy to generate Android code for your implementation. This project is born through my passion for Android development and my growing interest for functional programing and Haskell specifically.",
+					"description":"This is a project still in really early development. I plan to create a small DSL to make it easy to generate Android code for your implementation. This project is born through my passion for Android development and my growing interest for functional programing with a focus on Haskell.",
 					"technologies": [
 						"Haskell"
 					]
