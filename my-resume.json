@@ -24,11 +24,11 @@
 					"id": "item-education-laval",
 					"extra": {
 						"type": "text",
-						"extraContent": "This is when I started to discover an interest for programming. On my free time I started to work on my first website, using Ruby on Rails. You can still find it at <a href=\"http://www.old.jeremydagorn.com\"> old.jeremydagorn.com</a>."
+						"extraContent": "This is when I started to discover an interest for programming. On my free time I started to work on my first website, using Ruby on Rails. You can still find the source on <a href=\"https://github.com/jrm2k6/portfolio-old\"> Github</a>."
 					}
 				}
 			},
-			{	
+			{
 				"item-education": {
 					"start-date": "Sep, 2009",
 					"end-date": "Oct, 2012",
@@ -46,7 +46,7 @@
 					"id": "item-education-polytech"
 				}
 			},
-			{	
+			{
 				"item-education": {
 					"start-date": "Sep, 2006",
 					"end-date": "May, 2009",
@@ -65,16 +65,18 @@
 				"item-work": {
 					"start-date": "Jan. 2015",
 					"end-date": "Present",
-					"position": "Software engineer",
+					"position": "Full-stack engineer",
 					"company": {
-						"name": "PocketDerm",
+						"name": "Curology",
 						"city": "San Diego",
 						"country": "USA"
 					},
-					"achievements": "Working on front-end and mobile applications for PocketDerm's online dermatology solution",
+					"achievements": "Curology aims at making dermatologists accessible easily, and for cheap, in the USA. We have a full-stack platform to help reaching this goal (dermatologists, in-house lab, shipping system). To do so, I have been working on projects related to each of those areas, wearing multiple hats. Those projects can go from creating a support center in React.js, to implement a complex signup flow in Ember.js, making the process fun and dynamic for our users. I have also been working on creating our whole testing infrastructure (unit, integration, screenshots comparison) to make sure we could move fast while keep a consistent quality. On a side note, I am also the organizer of the San Diego React.js meetup. We meet once a month at the Curology offices.",
 					"technologies": [
 						"PHP/Laravel",
-						"Javascript"
+						"Javascript",
+						"React.js",
+						"Ember.js"
 					]
 				}
 			},
@@ -95,7 +97,6 @@
 						"Typescript",
 						"Haxe",
 						"React.js",
-						"Java",
 						"Python"
 					],
 					"id": "item-work-prezi",
@@ -158,7 +159,21 @@
 					"extra": {
 						"type": "images",
 						"extraContent": ["http://i.imgur.com/zbYcTsL.png", "http://i.imgur.com/1zi7bKi.png", "http://i.imgur.com/LNi89NW.png", "http://i.imgur.com/P4UGX5a.png"]
-					} 
+					}
+				}
+			},
+			{
+				"item-projects": {
+					"title": "Creation of a NPM module: json-resume-dynamic",
+					"description":"On my free time, I work on various open-source projects of my own. Those mostly includes small packages, easy to integrate. For example, this resume is generated through a npm package of my own called json-resume-dynamic. I have also a markdown editor with preview implemented in React.js that is currently used in production at Curology. I am also maintaining Reddit and Cloudinary API wrappers for Laravel, available as composer packages. My last project is a small npm package to help you generate a calendar showing all your Bitbucket and Github contributions as a React component, easy to display on your website.",
+					"technologies": [
+						"Javascript", "React.js", "Laravel", "Node.js", "Various APIs"
+					],
+					"id": "id-npm",
+					"extra": {
+						"type": "text",
+						"extraContent": "Everything is open-source on my <a target='_blank' href='https://github.com/jrm2k6'>Github</a>"
+					}
 				}
 			},
 			{
@@ -174,40 +189,17 @@
 					"extra": {
 						"type": "images",
 						"extraContent": ["http://i.imgur.com/zOB5aum.png", "http://i.imgur.com/CCs4UlO.png"]
-					} 
-				}
-			},
-			{
-				"item-projects": {
-					"title": "Creation of a NPM module: json-resume-dynamic",
-					"description":"A small weekend project that became a NPM module. It helps you create your resume using JSON and is easily deployable. You can also add extra information that will be loaded as you scroll, making your resume more personal. I created it and I am also in charge of maintaining it. You can read more about it at http://jrm2k6.github.io/dynamic-json-resume/",
-					"technologies": [
-						"NodeJs", "Javascript"
-					],
-					"id": "id-npm",
-					"extra": {
-						"type": "text",
-						"extraContent": "Basically, you are looking at it! More information <a href=\"https://www.npmjs.com/package/json-resume-dynamic\">here</a>"
 					}
-				}
-			},
-			{	
-				"item-projects": {
-					"title": "Android code generator",
-					"description":"This is a project still in really early development. I plan to create a small DSL to make it easy to generate Android code for your implementation. This project is born through my passion for Android development and my growing interest for functional programing with a focus on Haskell.",
-					"technologies": [
-						"Haskell"
-					]
 				}
 			}
 		],
 		"skills": [
-			"Actionscript",
 			"Javascript",
-			"Haxe",
+			"React.js",
+			"Ember.js",
+			"Laravel",
 			"Android/Java",
-			"Python/Flask/Django",
-			"Typescript"
+			"Python/Flask/Django"
 		],
 		"languages": [
 			{

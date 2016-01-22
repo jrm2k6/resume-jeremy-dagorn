@@ -19,7 +19,7 @@ app.get('/', function(request, response) {
     });
 
     var resume = dynamicJsonResume.getResumeWithExtras(resumeJsonFile);
-	
+
 	if (resume) {
 		response.render(dynamicJsonResume.getTemplatePath('cv'), resume);
 	}
@@ -30,4 +30,3 @@ var port = process.env.PORT || 5000;
 app.listen(port, function() {
 	console.log("Listening on " + port);
 });
-
