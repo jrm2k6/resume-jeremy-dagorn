@@ -71,11 +71,12 @@
 						"city": "San Diego",
 						"country": "USA"
 					},
-					"achievements": "Curology aims at making dermatologists accessible easily, and for cheap, in the USA. We have a full-stack platform to help reaching this goal (dermatologists, in-house lab, shipping system). To do so, I have been working on projects related to each of those areas, wearing multiple hats. Those projects can go from creating a support center in React.js, to implement a complex signup flow in Ember.js, making the process fun and dynamic for our users. I have also been working on creating our whole testing infrastructure (unit, integration, screenshots comparison) to make sure we could move fast while keep a consistent quality. On a side note, I am also the organizer of the San Diego React.js meetup. We meet once a month at the Curology offices.",
+					"achievements": "Curology aims at making dermatologists accessible easily, and for cheap, in the USA. We have a full-stack platform to help reaching this goal (dermatologists, in-house lab, shipping system). To do so, I have been working on projects related to each of those areas, wearing multiple hats. Those projects can go from creating a support center in React.js, to implement a complex signup flow in Ember.js, making the process fun and dynamic for our users. I have also been working on creating our whole testing infrastructure (unit, integration, screenshots comparison) to make sure we could move fast while keep a consistent quality. On a side note, I was also the organizer of the San Diego React.js meetup. We were meeting once a month at the Curology offices.",
 					"technologies": [
 						"PHP/Laravel",
 						"Javascript",
 						"React.js",
+						"React Native",
 						"Ember.js"
 					]
 				}
@@ -127,27 +128,29 @@
 						"extraContent": "You can find the submitted paper here and the implementation for the Electronic Calendar in the <a href=\"http://github.com/jrm2k6/ElectronicCalendar\">Github repo</a>."
 					}
 				}
-			},
-			{
-				"item-work": {
-					"start-date": "Jun, 2010",
-					"end-date": "Sep, 2010",
-					"position": "Intern Developer",
-					"company": {
-						"name": "Jurisoft",
-						"city": "Nantes",
-						"country": "France"
-					},
-					"achievements": "Using Delphi, I implemented a system to automatically update the desktop version of the main software of the company, as a SOAP web service. The second part of my internship was to redesign and add features to the Downloads page of the company website.",
-					"technologies": [
-						"Delphi",
-						"PHP",
-						"Javascript"
-					]
-				}
 			}
 		],
 		"projects": [
+			{
+				"item-projects": {
+					"title": "Developer for iheartreading.co",
+					"description":"A web app to help teachers track their students reading. The app lets them add books, update their progress and upload responses that their teachers can review. It helps the student make sure they are on track for their reading goals, and provide a way for teachers to easily track progress to give more help to student in need. It is right now used by one school in San Diego, still in testing but should have a bigger release in September. It is using the Goodreads API to fetch necessary data about books/authors.",
+					"technologies": [
+						"Laravel",
+						"React.js/Redux"
+					]
+				}
+			},
+			{
+				"item-projects": {
+					"title": "Created and maintaing several open-source projects",
+					"description":"Those packages are mostly in the Laravel or React.js ecosystem. They include Laravel wrappers for Reddit and Cloudinary, a markdown editor implemented in React.js and some other small projects.",
+					"technologies": [
+						"Laravel",
+						"React.js"
+					]
+				}
+			},
 			{
 				"item-projects": {
 					"title": "Developer at JumyApps",
@@ -173,22 +176,6 @@
 					"extra": {
 						"type": "text",
 						"extraContent": "Everything is open-source on my <a target='_blank' href='https://github.com/jrm2k6'>Github</a>"
-					}
-				}
-			},
-			{
-				"item-projects": {
-					"title": "Creation of a blog engine",
-					"description":"I implemented my blog engine and personal website and decided mid-way that it would be nice to extract a smal CMS for developers. It provides an admin interface and different ways of backing your data like Dropbox or Google Drive, uses Markdown posts and it is aiming to make your life easier if you decide to have a personal blog. It is still in development but soon to be released.",
-					"technologies": [
-						"Flask/Python",
-						"Javascript",
-						"Various APIs"
-					],
-					"id": "id-blog",
-					"extra": {
-						"type": "images",
-						"extraContent": ["http://i.imgur.com/zOB5aum.png", "http://i.imgur.com/CCs4UlO.png"]
 					}
 				}
 			}
